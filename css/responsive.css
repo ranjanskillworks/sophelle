@@ -1,0 +1,294 @@
+
+
+
+/*============Start Responsive_design============*/
+
+@media (min-width: 1367px) and (max-width:7000px)
+{
+	.carousel-caption.banner_heading {
+		width: 100%;
+		text-align: left;
+		left: -580px;
+		right: 0;
+		top: 7%;
+		position: absolute;
+		transform: translate(0px, 0);
+		margin: 0 auto;
+		max-width: 700px;
+	}
+
+
+}
+
+
+
+@media (max-width: 1366px){
+	.row.box_transform {
+		transform: translate(0px,-3%);
+	}
+}
+
+
+@media (min-width: 992px) and (max-width:1199px)
+{
+	h1
+	{
+		font-size: 60px;
+	}
+	h2
+	{
+		font-size: 60px;
+	}
+	h3
+	{
+		font-size: 30px;
+	}
+	h4
+	{
+		font-size: 24px;
+	}
+	h5
+	{
+		font-size: 20px;
+	}
+	h6
+	{
+		font-size: 18px;
+	}
+	p
+	{
+		font-size: 16px;
+	}
+	.carousel-caption.banner_heading {
+		left: -225px;
+		top: 3em;
+	}
+	.banner_heading h1 {
+		font-size: 50px;
+		padding: 0 0 30px 0;
+	}
+	.banner_heading h2 {
+		font-size: 50px;
+		padding: 0 0 30px 0;
+	}
+	.row.box_transform {
+		transform: translate(0px, 0px);
+		padding: 60px 0;
+	}
+	
+}
+
+@media (max-width:991px)
+{
+	h1
+	{
+		font-size: 40px;
+	}
+	h2
+	{
+		font-size: 35px;
+	}
+	h3
+	{
+		font-size: 30px;
+	}
+	h4
+	{
+		font-size: 24px;
+	}
+	h5
+	{
+		font-size: 20px;
+	}
+	h6
+	{
+		font-size: 18px;
+	}
+	p
+	{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		padding: 0;
+		margin: 0;
+		line-height: 1.7em;
+	}
+
+	.cal_div {
+    width: calc(90% - 20px);
+    float: left;
+}
+	.cal_div_nav {
+    width: calc(10% - 0%);
+    position: static;
+    float: right;
+}
+.navbar-collapse{
+	position: absolute !important; 
+	width:100%;
+	left: 0;
+}
+.navbar {
+    position: static;
+}
+ul#menu-header-menu {
+    padding: 15px;
+}
+ul#menu-header-menu li:nth-child(7) {
+    padding: 0 15px;
+    display: inline-block;
+}
+.navbar-collapse{
+position: absolute;
+top: 120px;
+width: 80vw !important;
+right: 0px;
+left: auto !important;
+margin: 0 auto;
+float: right;
+background-color: #0a264d;
+}
+	button.navbar-toggler {
+		display: block;
+	}
+	.logo_area {
+		width: 100%;
+		text-align: left;
+	}
+	.desktop-header {
+		display: block;
+	}
+	button.navbar-toggler {
+		float: right;
+		background-color: #aada00;
+		border: 1px solid #004c20;
+	}
+	.d_block {
+		display: block!important;
+		width: 100%;
+		text-align: left;
+	}
+	ul.navbar-nav.d_block li {
+		display: block;
+	}
+	ul.navbar-nav.d_block li:last-child {
+		width: auto;
+		margin: 20px 0;
+		display: inline-table;
+	}
+	.carousel-caption.banner_heading {
+		top: 3em;
+		left: 0;
+		text-align: center;
+	}
+	.banner_heading h1 {
+		font-size: 40px;
+		padding: 0 0 20px 0;
+	}
+	.banner_heading h2 {
+		font-size: 40px;
+		padding: 0 0 20px 0;
+	}
+
+	.row.box_transform {
+		transform: translate(0px, 0px);
+		padding: 60px 0;
+	}
+	.left_content {
+		padding-right: 0px;
+	}
+	.left_content h2 {
+		font-size: 30px;
+		padding-bottom: 20px;
+	}
+	.d_flip .left_content {
+		padding-left: 0px;
+	}
+	.left_content ul li h3 {
+		font-size: 24px;
+	}
+	.footer_box {
+		padding-bottom: 30px;
+	}
+	.row.box_transform {
+		transform: translate(0px, 0px);
+		padding: 40px 0;
+	}
+	section.content_areas {
+		background-color: #f3f3f3;
+		padding: 40px 0;
+	}
+	section.investment {
+		padding: 40px 0;
+	}
+	.investment_box h2 {
+		font-size: 30px;
+	}
+	section.footer {
+		padding: 60px 15px;
+	}
+
+}
+
+@media (max-width: 767px)
+{
+	.carousel-caption.banner_heading {
+		top: 1.3em;
+		left: 0;
+		text-align: center;
+	}
+	.banner_heading h2 {
+		font-size: 30px;
+		padding: 0 0 20px 0;
+	}
+
+	.banner_heading h1 {
+		font-size: 30px;
+		padding: 0 0 20px 0;
+	}
+
+	.investment_box h2 {
+		font-size: 24px;
+	}
+
+}
+
+@media (max-width: 575px)
+{
+	.carousel-caption.banner_heading {
+		top: 0em;
+		left: 0;
+		text-align: center;
+		position: relative;
+		background-color: #000;
+		padding: 50px 0;
+	}
+	.banner_heading h1 {
+		font-size: 30px;
+		padding: 0 0 15px 0;
+	}
+	.banner_heading h2 {
+		font-size: 30px;
+		padding: 0 0 15px 0;
+	}
+	.carousel-caption.banner_heading a.wealthy-btn-class-primary {
+		margin: 0 5px 15px 5px;
+		display: inline-block;
+	}
+	.carousel-caption.banner_heading a.wealthy-btn-class-secondary {
+		margin: 0 5px 15px 5px;
+		display: inline-block;
+	}
+	.box_transform h3{
+		font-size: 22px;
+	}
+
+	.investment_box h2 {
+		font-size: 22px;
+	}
+}
+
+@media (max-width:480px)
+{
+	
+}
